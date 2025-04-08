@@ -1,0 +1,44 @@
+# Ignore system files
+Thumbs.db
+.DS_Store
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+
+# Ignore node modules (if using Node.js)
+node_modules/
+
+# Ignore environment files
+.env
+
+# Ignore compiled files
+*.class
+*.pyc
+*.o
+
+# Ignore logs
+*.log
+
+# Ignore backups
+*.bak
+
+# Ignore personal settings
+*.swp
+*.swo
+
+# Ignore Mac junk
+*.DS_Store
+
+# Ignore Windows junk
+ehthumbs.db
+Desktop.ini
+
+# Ignore media files
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.avif
+*.mp4
+
