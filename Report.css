@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(report.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Add a semi-transparent background to make text more readable */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Add a semi-transparent white background to the container */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.button-bar {
+    text-align: center;
+}
+
+#generate-report-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#generate-report-btn:hover {
+    background-color: #45a049;
+}
